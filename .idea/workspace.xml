@@ -27,15 +27,14 @@
       <file leaf-file-name="preprocess_datas.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/preprocess_datas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="244" column="10" lean-forward="true" selection-start-line="244" selection-start-column="10" selection-end-line="244" selection-end-column="10" />
               <folding>
                 <element signature="e#176#244#0" expanded="true" />
-                <element signature="e#1325#1706#0" expanded="false" />
-                <element signature="e#2096#2730#0" expanded="false" />
                 <element signature="e#2788#4353#0" expanded="false" />
                 <element signature="e#4400#5827#0" expanded="false" />
                 <element signature="e#5894#6118#0" expanded="false" />
+                <element signature="e#6179#7186#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -690,15 +689,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocess_datas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="243" column="0" lean-forward="true" selection-start-line="243" selection-start-column="0" selection-end-line="243" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="264" column="0" lean-forward="true" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
           <folding>
             <element signature="e#176#244#0" expanded="true" />
-            <element signature="e#1325#1706#0" expanded="false" />
-            <element signature="e#2096#2730#0" expanded="false" />
             <element signature="e#2788#4353#0" expanded="false" />
             <element signature="e#4400#5827#0" expanded="false" />
             <element signature="e#5894#6118#0" expanded="false" />
+            <element signature="e#6179#7186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classificationEmail.py" />
+    <entry file="file://$PROJECT_DIR$/classificationEmail.py" />
+    <entry file="file://$PROJECT_DIR$/classificationEmail.py" />
+    <entry file="file://$PROJECT_DIR$/../untitled/scrap-kennedy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_boundary_on_data.py" />
+    <entry file="file://$PROJECT_DIR$/linear_svm.py" />
+    <entry file="file://$PROJECT_DIR$/spamDetection.tmp.py" />
+    <entry file="file://$PROJECT_DIR$/classificationEmail.py" />
+    <entry file="file://$PROJECT_DIR$/compute_new_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="166" column="32" lean-forward="true" selection-start-line="166" selection-start-column="32" selection-end-line="166" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#1012#1258#0" expanded="false" />
+            <element signature="e#1310#2048#0" expanded="false" />
+            <element signature="e#2111#4050#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn_from_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="105" column="19" lean-forward="true" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini.test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <element signature="e#21#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocess_datas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="244" column="10" lean-forward="true" selection-start-line="244" selection-start-column="10" selection-end-line="244" selection-end-column="10" />
+          <folding>
+            <element signature="e#176#244#0" expanded="true" />
+            <element signature="e#2788#4353#0" expanded="false" />
+            <element signature="e#4400#5827#0" expanded="false" />
+            <element signature="e#5894#6118#0" expanded="false" />
+            <element signature="e#6179#7186#0" expanded="false" />
           </folding>
         </state>
       </provider>
