@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\KERAWA-PC3\\PycharmProjects\\classificationAnnonces\\spam_detection_datas.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\KERAWA-PC3\\PycharmProjects\\classificationAnnonces\\spam_detection_datas.ckpt"
