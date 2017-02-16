@@ -13,7 +13,6 @@ import os #import os module
 import csv
 import pickle
 import time
-import multiprocessing
 import encodings
 import warnings
 
@@ -165,7 +164,7 @@ def match_token_list_with_dictionary(token_list,dictionary):
         advertVec[rowCol] = 1 if rowCol >= 0 else 0
     return advertVec
 
-def build_matching_table(tokenTable, tokenDictionary,matchingTable):
+def build_matching_table(tokenTable, tokenDictionary):
     # Construct the vector for each advert
     print("\tBuilding the matching vector for each row...")
     rowInd = 0
@@ -242,28 +241,8 @@ file = open(TMP_FOLDER + "token_dictionary",'rb')
 tokenDictionary = pickle.load(file)
 file.close()
 
-procs = 2   # Number of processes to create
 
-# Create a list of jobs and then iterate through
-# the number of processes appending each process to
-# the job list
-jobs = []
-for i in range(0, procs):
-    out_list = list()
-    process = multiprocessing.Process(target=build_matching_table,
-                                      args=(tokenTable, tokenDictionary,matchingTable))
-    jobs.append(process)
-
-# Start the processes (i.e. calculate the random number lists)
-for j in jobs:
-    j.start()
-
-# Ensure all of the processes have finished
-for j in jobs:
-    j.join()
-print("matchingTable shape " + str(np.array(matchingTable).shape))
-
-# matchingTable = build_matching_table(tokenTable, tokenDictionary)
+matchingTable = build_matching_table(tokenTable, tokenDictionary)
 try:
     file = open(TMP_FOLDER + "matching_table",'wb')
     pickle.dump(tokenDictionary,file)
