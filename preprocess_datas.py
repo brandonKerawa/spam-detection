@@ -186,6 +186,13 @@ def build_matching_table(tokenTable, tokenDictionary):
             elapsed = end_time - start_time
             start_time = end_time
             print("\t\t" + str(rowInd) + " rows processed - elapse : " + str(elapsed) + " --- rowCol was " + str(rowCol))
+            try:
+                file = open(TMP_FOLDER + "matching_table", 'wb')
+                pickle.dump(matchingTable, file)
+                print("\t\t'matching_table' written | Shape = " + str(np.array(matchingTable).shape))
+                file.close()
+            except:
+                print("\t\tfailed to create file 'token_dictionary'")
         rowInd += 1
     return matchingTable
 
